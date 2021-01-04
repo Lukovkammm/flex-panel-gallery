@@ -32,8 +32,8 @@ body {
     background-size: cover;
     box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
 
-    transition: flex 1s ease-in-out;
-    transition: font .5s ease-in;
+    transition: flex 1s cubic-bezier(0.55, 0.085, 0.68, 0.53),
+    font-size .7s ease-in-out;
 }
 
 .panel::before {
